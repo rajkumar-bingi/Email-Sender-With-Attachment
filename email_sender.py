@@ -92,7 +92,7 @@ def send_email_to_all(input_excel, input_text_file, subject, sender_email, app_p
 
 if __name__ == '__main__':
     # Hardcoded paths and details
-    input_excel = 'mails.xlsx'        # Excel file with email addresses
+    input_excel = 'hr_emails.xlsx'        # Excel file with email addresses
     input_text_file = 'input.txt'     # Text file containing the body of the email
     subject = 'Applying for the position of QA Engineer'  # Email subject
     smtp_server = 'smtp.gmail.com'    # SMTP server for Gmail
